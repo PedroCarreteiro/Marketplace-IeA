@@ -19,9 +19,8 @@ root{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
     height: 30rem;
-    border: 2px solid red;
 }
 
 .products_title{
