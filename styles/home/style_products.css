@@ -1,0 +1,37 @@
+root{
+    --font-weight-regular: 400;
+    --font-weight-extralight: 200;
+    --primaria: #ffffff;
+    --destaque: #128A00;
+    --secundaria: #EBEBEB;
+    --contraste_secundaria: #D0D0D0;
+    --contraste_black: #000000;
+    --contraste_bright: #F5F5F5
+}
+
+.products_general{
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.products{
+    background-color: var(--secundaria);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 30rem;
+    border: 2px solid red;
+}
+
+.products_title{
+    text-decoration: none;
+    padding-left: 4rem;
+    color: var(--contraste_black);
+    font-weight: var(--font-weight-regular);
+    font-size: 2.5rem;
+}
+
+.products_title:hover{
+   color: var(--destaque);
+}

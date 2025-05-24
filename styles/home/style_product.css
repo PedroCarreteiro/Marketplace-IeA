@@ -1,0 +1,39 @@
+root{
+    --font-weight-regular: 400;
+    --font-weight-extralight: 200;
+    --primaria: #ffffff;
+    --destaque: #128A00;
+    --secundaria: #EBEBEB;
+    --contraste_secundaria: #D0D0D0;
+    --contraste_black: #000000;
+    --contraste_bright: #F5F5F5
+}
+
+.product{
+    width: 20rem;
+    height: 25rem;
+    border: 2px solid red;
+    margin-left: 5rem;
+    flex-direction: column;
+    /* background-color: var(--primaria); */
+}
+
+.header-product{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+}
+
+.title_product{
+    font-weight: var(--font-weight-extralight);
+    font-size: 2rem;
+    margin-right: 9.5rem;
+}
+
+.img_product{
+    margin-left: 0.6rem;
+}
+
+.p

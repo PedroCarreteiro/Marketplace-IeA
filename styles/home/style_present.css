@@ -9,7 +9,6 @@
     --contraste_bright: #F5F5F5
 }
 
-
 .present{
     background-color: var(--primaria);
     display: flex;
