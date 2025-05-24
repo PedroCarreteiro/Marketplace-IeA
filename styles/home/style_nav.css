@@ -13,19 +13,15 @@
    color: var(--contraste_black);
    font-weight: var(--font-weight-regular);
    font-size: 2rem;
-   margin-left: 2rem;
+   margin-left: 3rem;
 }
 
 .home_nav:hover, .prod_nav:hover{
-   text-decoration: none;
    color: var(--destaque);
-   font-weight: var(--font-weight-regular);
-   font-size: 2rem;
-   margin-left: 2rem;
-}
+}   
 
 .search_nav_article{
-    margin-left: 2rem;
+    margin-left: 3rem;
     width: 70rem;
     height: 3.5rem;
     border-radius: 2rem;
