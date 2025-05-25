@@ -9,7 +9,7 @@
     --contraste_bright: #F5F5F5
 }
 
-.login_all{
+.register_all{
     display: flex;
     justify-content: center;
     flex-direction: row;    
@@ -18,7 +18,7 @@
     height:"100vh";
 }
 
-.login_general{
+.register_general{
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -29,17 +29,18 @@
     border-radius: 1rem;
 }
 
-.login_logo{
+.register_logo{
     margin-top: 3rem;
 }
 
-.login_form{
+.register_form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .txt_form{
+    margin-top: 5rem;
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: xx-large;
@@ -75,7 +76,7 @@
     font-size: large;
 }
 
-.btn_login{
+.btn_register{
     margin-top: 2rem;
     font-weight: var(--font-weight-regular);
     font-size: x-large;
@@ -87,8 +88,9 @@
     border: none;
 }
 
-.img_login{
+.img_register{
     margin-top: 5rem;
+    margin-right: 5rem;
 }
 
 .paragraf_register{
@@ -97,7 +99,7 @@
     font-size: large;
 }
 
-.link_register{
+.link_login{
     font-weight: var(--font-weight-regular);
     color: var(--destaque);
     font-size: large;

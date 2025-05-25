@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="icon" type="image/x-icon" href="./imagens/icons/favicon.ico"/>
+    <link rel="stylesheet" href="styles/general/style.general.css">
     <link rel="stylesheet" href="styles/login/style_login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,14 +16,25 @@
         <section class="login_all">
             <section class="login_general">
                 <section class="login_logo">
-                    <img href="imagens/icons/logo.png" width="500rem" height="500rem">
+                    <img src="imagens/icons/logo.png" width="250rem" height="250rem" alt="Produtor rural">
                 </section>
                 <section class="login_form"> 
-                    <p>Realize Login no I&A</p>
+                    <p class="txt_form">Realize Login no I&A</p>
+                    <form class="login_form">
+                        <article class="input_form">
+                            <input type="email" name="email" class="input" placeholder="Email">
+                        </article>
+                        <article class="input_form">
+                            <input type="password" name="senha" class="input" placeholder="Senha">
+                        </article>
+                    </form>
+                    <a href="home.html"><button class="btn_login" type="submit">Login</button></a>
                 </section>
+                <p class="paragraf_register">Não tem uma conta?</p>
+                <a href="cadastro.html" class="link_register">Cadastre-se agora!</a>
             </section>
-            <section class="login_img">
-
+            <section class="img_login">
+                <img src="imagens/imgs/imagem_login.jpg">
             </section>
         </section>
     </main>
