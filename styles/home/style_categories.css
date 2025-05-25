@@ -9,13 +9,13 @@ root{
     --contraste_bright: #F5F5F5
 }
 
-.products_general{
+.categories_general{
     width: 100%;
-    margin-top: 3rem;
-    background-color: var(--secundaria);
+    padding-top: 3rem;
+    background-color: var(--contraste_bright);
 }
 
-.products{
+.categories{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,7 +23,7 @@ root{
     height: 30rem;
 }
 
-.products_title{
+.categories_title{
     text-decoration: none;
     padding-left: 4rem;
     color: var(--contraste_black);
@@ -31,6 +31,6 @@ root{
     font-size: 2.5rem;
 }
 
-.products_title:hover{
+.categories_title:hover{
    color: var(--destaque);
 }

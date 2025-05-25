@@ -9,7 +9,7 @@ root{
     --contraste_bright: #F5F5F5
 }
 
-.product{
+.categorie{
     width: 20rem;
     height: 25rem; 
     flex-direction: column;
@@ -19,7 +19,7 @@ root{
     /* background-color: var(--primaria); */
 }
 
-.header-product{
+.header-categorie{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,19 +27,13 @@ root{
     margin-bottom: 1rem;
 }
 
-.title_product{
+.title_categorie{
     font-weight: var(--font-weight-extralight);
     font-size: 2rem;
-    margin-right: 1rem;
-    width: 15rem;
-}
-
-.price_product{
-    font-weight: var(--font-weight-extralight);
-    font-size: 1.5rem;
 }
 
 .btn_buy{
+    margin-top: 1rem;
     font-weight: var(--font-weight-regular);
     border-radius: 1rem;
     width: 10rem;
