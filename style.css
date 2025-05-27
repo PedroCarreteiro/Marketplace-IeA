@@ -312,8 +312,14 @@ input{
 
 .products_general{
     width: 100%;
-    margin-top: 3rem;
+    padding-top: 3rem;
     background-color: var(--secundaria);
+}
+
+.products_general2{
+    width: 100%;
+    padding-top: 3rem;
+    background-color: var(--contraste_secundaria);
 }
 
 .products{
@@ -534,4 +540,19 @@ input{
     color: var(--destaque);
     font-size: large;
     text-decoration: none;
+}
+
+
+/*|||||||||||| Endereço ||||||||||||*/
+
+
+.adress_general{    
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primaria);
+    width: 50rem;
+    height: 52rem;
+    border-radius: 1rem;
 }
