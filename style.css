@@ -12,6 +12,10 @@
     --contraste_bright: #F5F5F5
 }
 
+figure{
+    margin: 0%;
+}
+
 body {
     margin: 0px;
     font-family: 'Inter', sans-serif;
@@ -35,7 +39,7 @@ input{
     background-color: var(--primaria);
 }
 
-.home_nav, .prod_nav{
+.homeNav, .prodNav{
    text-decoration: none;
    color: var(--contraste_black);
    font-weight: var(--font-weight-regular);
@@ -43,11 +47,11 @@ input{
    margin-left: 3rem;
 }
 
-.home_nav:hover, .prod_nav:hover{
+.homeNav:hover, .prodNav:hover{
    color: var(--destaque);
 }   
 
-.search_nav_article{
+.searchNavArticle{
     margin-left: 3rem;
     width: 70rem;
     height: 3.5rem;
@@ -77,7 +81,7 @@ input{
     font-size: large;
 }
 
-.loupe_search{
+.loupeSearch{
     padding-left:1rem;
 }
 
@@ -98,12 +102,12 @@ input{
     align-items: center;    
 }
 
-.footer_left{
+.footerLeft{
     flex-direction: column;
     margin-left: 2rem;
 }
 
-.footer_title{
+.footerTitle{
     height: 1rem;
     display: flex;
     flex-direction: row;
@@ -111,47 +115,51 @@ input{
     margin-bottom: 10rem;
 }
 
-.footer_name{
+.footerName{
+    list-style: none;
     font-size: 5rem;
     color: var(--primaria);
     font-weight: var(--font-weight-thin);
     margin-top: 2rem;
 }
 
-.footer_text_name{
+.footerTextName{
+    list-style: none;
     font-size: xx-large;
     color: var(--primaria);
     font-weight: var(--font-weight-thin);
     margin-left: 1rem;
 }
 
-.footer_text_left{
+.footerTextLeft{
+    list-style: none;
     margin-top: -2rem;
     font-size: x-large;
     color: var(--primaria);
     font-weight: var(--font-weight-thin);
 }
 
-.footer_year_left{
+.footerYearLeft{
+    list-style: none;
     font-size: x-large;
     color: var(--primaria);
     font-weight: var(--font-weight-thin);
 }
 
-.footer_right{
+.footerRight{
     display: flex;
     flex-direction: column;
     margin-left: 60rem;
 }
 
-.footer_email{
+.footerEmail{
     font-size: x-large;
     color: var(--primaria);
     font-weight: var(--font-weight-thin);
 }
 
-.footer_phone{
-    margin-top: -0.5rem;
+.footerPhone{
+    margin-top: 1rem;
     font-size: x-large;
     color: var(--primaria);
     font-weight: var(--font-weight-thin);
@@ -168,7 +176,7 @@ input{
     align-items: center;
 }
 
-.logo_present{
+.logoPresent{
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -176,7 +184,7 @@ input{
     height: 25rem;
 }
 
-.paragraf_present{
+.paragrafPresent{
     padding-left: 4rem;
     color: var(--contraste_black);
     font-weight: var(--font-weight-extralight);
@@ -184,7 +192,7 @@ input{
     width: 30rem;
 }
 
-.paragraf_aboutus{
+.paragrafAboutus{
     text-decoration: none;
     color: var(--contraste_black);
     font-weight: var(--font-weight-extralight);
@@ -194,7 +202,7 @@ input{
     margin-top: 15rem;
 }
 
-.paragraf_aboutus:hover{
+.paragrafAboutus:hover{
    color: var(--destaque);
 }   
 
@@ -211,7 +219,7 @@ input{
     display: flex;
 }
 
-.header-categorie{
+.headerCategorie{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -219,12 +227,12 @@ input{
     margin-bottom: 1rem;
 }
 
-.title_categorie{
+.titleCategorie{
     font-weight: var(--font-weight-extralight);
     font-size: 2rem;
 }
 
-.btn_buy{
+.btnBuy{
     margin-top: 1rem;
     font-weight: var(--font-weight-regular);
     border-radius: 1rem;
@@ -243,7 +251,7 @@ input{
 /*|||||||||||| Categories ||||||||||||*/
 
 
-.categories_general{
+.categoriesGeneral{
     width: 100%;
     padding-top: 3rem;
     background-color: var(--contraste_bright);
@@ -257,7 +265,7 @@ input{
     height: 30rem;
 }
 
-.categories_title{
+.categoriesTitle{
     text-decoration: none;
     padding-left: 4rem;
     color: var(--contraste_black);
@@ -265,7 +273,7 @@ input{
     font-size: 2.5rem;
 }
 
-.categories_title:hover{
+.categoriesTitle:hover{
    color: var(--destaque);
 }
 
@@ -273,7 +281,16 @@ input{
 /*|||||||||||| Product ||||||||||||*/
 
 
-.header-product{
+.product{
+    width: 20rem;
+    height: 25rem; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.headerProduct{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -281,19 +298,19 @@ input{
     margin-bottom: 1rem;
 }
 
-.title_product{
+.titleProduct{
     font-weight: var(--font-weight-extralight);
     font-size: 2rem;
     margin-right: 1rem;
     width: 15rem;
 }
 
-.price_product{
+.priceProduct{
     font-weight: var(--font-weight-extralight);
     font-size: 1.5rem;
 }
 
-.btn_buy{
+.btnBuy{
     font-weight: var(--font-weight-regular);
     border-radius: 1rem;
     width: 10rem;
@@ -310,13 +327,13 @@ input{
 /*|||||||||||| Products ||||||||||||*/
 
 
-.products_general{
+.productsGeneral{
     width: 100%;
     padding-top: 3rem;
     background-color: var(--secundaria);
 }
 
-.products_general2{
+.productsGeneral2{
     width: 100%;
     padding-top: 3rem;
     background-color: var(--contraste_secundaria);
@@ -330,7 +347,7 @@ input{
     height: 30rem;
 }
 
-.products_title{
+.productsTitle{
     text-decoration: none;
     padding-left: 4rem;
     color: var(--contraste_black);
@@ -338,7 +355,7 @@ input{
     font-size: 2.5rem;
 }
 
-.products_title:hover{
+.productsTitle:hover{
    color: var(--destaque);
 }
 
@@ -346,7 +363,7 @@ input{
 /*|||||||||||| Login ||||||||||||*/
 
 
-.login_all{
+.loginAll{
     display: flex;
     justify-content: center;
     flex-direction: row;    
@@ -355,7 +372,7 @@ input{
     height:"100vh";
 }
 
-.login_general{
+.loginGeneral{
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -366,23 +383,36 @@ input{
     border-radius: 1rem;
 }
 
-.login_logo{
-    margin-top: 3rem;
+.loginLogo{
+    margin-top: 2rem;
+    border: 2px solid red;
 }
 
-.login_form{
+.loginForm{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.txt_form{
+.txtForm{
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: xx-large;
+    border: 2px solid red;
 }
 
-.input_form{
+.inputGeneral{
+    display: flex;
+    flex-direction: column;    
+}
+
+.label{
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: large;
+}
+
+.inputForm{
     margin-top: 1rem;
     width: 30rem;
     height: 3.5rem;
@@ -412,7 +442,7 @@ input{
     font-size: large;
 }
 
-.btn_login{
+.btnLogin{
     margin-top: 2rem;
     font-weight: var(--font-weight-regular);
     font-size: x-large;
@@ -424,17 +454,17 @@ input{
     border: none;
 }
 
-.img_login{
+.imgLogin{
     margin-top: 5rem;
 }
 
-.paragraf_register{
+.paragrafRegister{
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: large;
 }
 
-.link_register{
+.linkRegister{
     font-weight: var(--font-weight-regular);
     color: var(--destaque);
     font-size: large;
@@ -445,7 +475,7 @@ input{
 /*|||||||||||| Register ||||||||||||*/
 
 
-.register_all{
+.registerAll{
     display: flex;
     justify-content: center;
     flex-direction: row;    
@@ -454,7 +484,7 @@ input{
     height:"100vh";
 }
 
-.register_general{
+.registerGeneral{
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -465,24 +495,24 @@ input{
     border-radius: 1rem;
 }
 
-.register_logo{
+.registerLogo{
     margin-top: 3rem;
 }
 
-.register_form{
+.registerForm{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.txt_form{
+.txtForm{
     margin-top: 5rem;
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: xx-large;
 }
 
-.input_form{
+.inputForm{
     margin-top: 1rem;
     width: 30rem;
     height: 3.5rem;
@@ -512,7 +542,7 @@ input{
     font-size: large;
 }
 
-.btn_register{
+.btnRegister{
     margin-top: 2rem;
     font-weight: var(--font-weight-regular);
     font-size: x-large;
@@ -524,18 +554,18 @@ input{
     border: none;
 }
 
-.img_register{
+.imgRegister{
     margin-top: 5rem;
     margin-right: 5rem;
 }
 
-.paragraf_register{
+.paragrafRegister{
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: large;
 }
 
-.link_login{
+.linkLogin{
     font-weight: var(--font-weight-regular);
     color: var(--destaque);
     font-size: large;
@@ -546,7 +576,7 @@ input{
 /*|||||||||||| Endereço ||||||||||||*/
 
 
-.adress_general{    
+.adressGeneral{    
     margin-top: 5rem;
     display: flex;
     flex-direction: column;

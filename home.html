@@ -11,201 +11,267 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <!--Navbar-->
-        <nav class="navbar">
-            <img class="logo_navbar" src="imagens/icons/logo.png" width="110rem" height="110rem" alt="Logo">
-            <a href="" class="home_nav">Home</a>
-            <a href="" class="prod_nav">Produtos</a>
-            <article class="search_nav_article">
-                <input type="search" name="search" class="search" placeholder="Pesquisar">
-                <a href="">
-                    <img src="imagens/icons/loupe.png" width="30rem" height="30rem" class="loupe_search" alt="Lupa para pesquisar">
-                </a>
-            </article>
+    <nav class="navbar">
+        <figure>
+            <img class="logoNavbar" src="imagens/icons/logo.png" width="110rem" height="110rem" alt="Logo">
+        </figure>
+        <a href="" class="homeNav">Home</a>
+        <a href="" class="prodNav">Produtos</a>
+        <article class="searchNavArticle">
+            <input type="search" name="search" class="search" placeholder="Pesquisar">
             <a href="">
+                <figure>
+                    <img src="imagens/icons/loupe.png" width="30rem" height="30rem" class="loupeSearch" alt="Lupa para pesquisar">
+                </figure>
+            </a>
+        </article>
+        <a href="">
+            <figure>
                 <img src="imagens/icons/shopping-cart.png" width="55rem" height="55rem" class="cart" alt="Carrinho">
-            </a>
-            <a href="">
+            </figure>
+        </a>
+        <a href="">
+            <figure>
                 <img src="imagens/icons/profile-user.png" width="55rem" height="55rem" class="profile" alt="Perfil">
-            </a>
-        </nav>
-        <section class="banner">
+            </figure>
+        </a>
+    </nav>
+    <header class="banner">
+        <figure>
             <img src="imagens/imgs/principal.webp" alt="Trator no campo" width="100%">
-        </section>
-        <section class="present">
-            <img class="logo_present" src="imagens/icons/logo.png" alt="Logo">
-            <p class="paragraf_present">Somos a I&A, a empresa que mais produz inovações tcnolonógicas, sempre tomando como base a opninião do produtor rural </p>
-            <a class="paragraf_aboutus" href="">Saiba mais sobre nós</a>
-        </section>
+        </figure>
+    </header>
+    <main>
+        <article class="present">
+            <figure>
+                <img class="logoPresent" src="imagens/icons/logo.png" alt="Logo">
+            </figure>
+            <p class="paragrafPresent">Somos a I&A, a empresa que mais produz inovações tcnolonógicas, sempre tomando como base a opninião do produtor rural </p>
+            <a class="paragrafAboutus" href="">Saiba mais sobre nós</a>
+        </article>
 
-         <section class="categories_general">
-            <a class="categories_title" href="">Categorias</a>
-            <section class="categories">
+         <section class="categoriesGeneral">
+            <a class="categoriesTitle" href="">Categorias</a>
+            <article class="categories">
                 <article class="categorie">
-                    <section class="header-categorie">
-                        <p class="title_categorie">Tratores</p>
+                    <section class="headerCategorie">
+                        <p class="titleCategorie">Tratores</p>
                     </section>
-                    <img class="img_categorie" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgCategorie" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="categorie">
-                    <section class="header-categorie">
-                        <p class="title_categorie">Drones</p>
+                    <section class="headerCategorie">
+                        <p class="titleCategorie">Drones</p>
                     </section>
-                    <img class="img_categorie" src="imagens/produtos/drones/agrast40.webp" width="350" height="200">
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgCategorie" src="imagens/produtos/drones/agrast40.webp" width="350" height="200">
+                    </figure>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="categorie">
-                    <section class="header-categorie">
-                        <p class="title_categorie">Pulverizadores</p>
+                    <section class="headerCategorie">
+                        <p class="titleCategorie">Pulverizadores</p>
                     </section>
-                    <img class="img_categorie" src="imagens/produtos/pulverizadores/jacto3030.jpg" width="300" height="200">
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgCategorie" src="imagens/produtos/pulverizadores/jacto3030.jpg" width="300" height="200">
+                    </figure>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
-            </section>
+            </article>
         </section>
 
-        <section class="products_general">
-            <a class="products_title" href="">Produtos</a>
-            <section class="products">
+        <section class="productsGeneral">
+            <a class="productsTitle" href="">Produtos</a>
+            <article class="products">
                 <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">John Deere 8R</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração cheio">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart_full.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart_full.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
-            </section>
+            </article>
         </section>
 
-        <section class="products_general2">
-            <a class="products_title" href="">Produtos</a>
-            <section class="products">
-                <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">John Deere 8R</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+        <section class="productsGeneral2">
+            <a class="productsTitle" href="">Produtos</a>
+            <article class="products">
+              <article class="product">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração cheio">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart_full.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
+                </article>
+              <article class="product">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
+                    </section>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart_full.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
-                <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
-                    </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
-                </article>
-            </section>
+            </article>
         </section>
 
-        <section class="products_general">
-            <a class="products_title" href="">Produtos</a>
-            <section class="products">
-                <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">John Deere 8R</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+        <section class="productsGeneral">
+            <a class="productsTitle" href="">Produtos</a>
+            <article class="products">
+               <article class="product">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração cheio">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart_full.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
                 <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart_full.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
-                <article class="product">
-                    <section class="header-product">
-                        <p class="title_product">Product</p>
-                        <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+               <article class="product">
+                    <section class="headerProduct">
+                        <p class="titleProduct">John Deere 8R</p>
+                        <figure>
+                            <img src="imagens/icons/heart.png" width="30rem" height="30rem" class="heart" alt="Coração vazio">
+                        </figure>
                     </section>
-                    <img class="img_product" src="imagens/produtos/tratores/8R.png" width="300" height="200">
-                    <p class="price_product">R$ 2.000.000,00</p>
-                    <a href=""><button class="btn_buy">Comprar</button></a>
+                    <figure>
+                        <img class="imgProduct" src="imagens/produtos/tratores/8R.png" width="300" height="200">
+                    </figure>
+                    <p class="priceProduct">R$ 2.000.000,00</p>
+                    <a href=""><button class="btnBuy">Comprar</button></a>
                 </article>
-            </section>
+            </article>
         </section>
-
-        <footer class="footer">
-            <section class="footer_left">
-                <section class="footer_title">
-                    <p class="footer_name">I&A</p>
-                    <p class="footer_text_name">Inovando no agro desde 2025</p>
-                </section>
-                <p class="footer_text_left">Todos os direitos reservados</p>
-                <p class="footer_year_left">2025</p>
-            </section>
-            <section class="footer_right">
-                <p class="footer_email">ia@email.com</p>
-                <p class="footer_phone">+55 (19) 99999-9999</p>
-            </section>
-        </footer>
     </main>
+
+    <footer class="footer">
+            <article class="footerLeft">
+                <hgroup class="footerTitle">
+                    <li class="footerName">I&A</li>
+                    <li class="footerTextName">Inovando no agro desde 2025</li>
+                </hgroup>
+                <li class="footerTextLeft">Todos os direitos reservados</li>
+                <li class="footerYearLeft">2025</li>
+            </article>
+            <article class="footerRight">
+                <address class="footerEmail">ia@email.com</address>
+                <address class="footerPhone">+55 (19) 99999-9999</address>
+            </article>
+    </footer>
+
 </body>
 </html>
