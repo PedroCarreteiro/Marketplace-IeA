@@ -385,20 +385,23 @@ input{
 
 .loginLogo{
     margin-top: 2rem;
-    border: 2px solid red;
 }
 
-.loginForm{
+.loginFormGeneral{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -2rem;
+}
+
+.loginForm{
+    margin-top: -2rem;
 }
 
 .txtForm{
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: xx-large;
-    border: 2px solid red;
 }
 
 .inputGeneral{
@@ -410,10 +413,10 @@ input{
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: large;
+    margin-top: 1rem;
 }
 
 .inputForm{
-    margin-top: 1rem;
     width: 30rem;
     height: 3.5rem;
     border-radius: 2rem;
@@ -506,14 +509,14 @@ input{
 }
 
 .txtForm{
-    margin-top: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: xx-large;
 }
 
 .inputForm{
-    margin-top: 1rem;
     width: 30rem;
     height: 3.5rem;
     border-radius: 2rem;
@@ -523,6 +526,7 @@ input{
     display: flex;
     flex-direction: row;    
     align-items: center;
+    margin-top: 1rem;
 }
 
 .input{
