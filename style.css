@@ -496,6 +496,139 @@ input{
     text-decoration: none;
 }
 
+.textFooterLogin{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+.txtFooterLoginLinkLeft{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.txtFooterLoginLinkRight{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-left: 4rem;
+}
+
+
+/*|||||||||||| Recuperar senha ||||||||||||*/
+
+
+.txtBack{
+    width: 3rem;
+    height: 1rem;
+    margin-top: 2rem;
+    margin-left: 10rem;  
+}
+
+.txtBack a{
+    color: var(--contraste_black);
+    font-size: xx-large;
+    font-weight: var(--font-weight-extralight);
+    text-decoration: none;
+}
+
+
+.recuperarAll{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
+    align-items: center;
+    width:"100vw";
+    height:"100vh";
+}
+
+.recuperarGeneral{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    background-color: var(--primaria);
+    width: 50rem;
+    height: 50rem;
+    border-radius: 1rem;
+}
+
+.recuperarLogo{
+    margin-top: 3rem;
+}
+
+.recuperarFormGeneral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recuperarForm{
+    margin-top: -2rem;
+}
+
+.txtFormAlterar{
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: xx-large;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.inputGeneral{
+    display: flex;
+    flex-direction: column;    
+}
+
+.label{
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: large;
+    margin-top: 1rem;
+}
+
+.inputForm{
+    width: 30rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--secundaria);
+    padding: auto;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+.input{
+    margin-left: 2rem;
+    width: 27rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--secundaria);
+    padding: auto;
+    outline: none;
+}
+
+.input::placeholder  {
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: large;
+}
+
+.btnRecuperar{
+    margin-top: 2rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 3rem;
+    background-color: var(--destaque);
+    color: white;
+    border: none;
+}
+
 
 /*|||||||||||| Register ||||||||||||*/
 
@@ -626,7 +759,7 @@ input{
 
 .adressRegisterForm{
     width: 90rem;
-    height: 35rem;
+    height: 22rem;
     display: flex;
     flex-direction: line;
 }
@@ -717,6 +850,14 @@ input{
      font-weight: var(--font-weight-extralight);
      color: var(--contraste_black);
      font-size: large;
+}
+
+.adressBack{
+    padding-top: 1.5rem;
+    color: var(--contraste_black);
+    font-size: xx-large;
+    font-weight: var(--font-weight-extralight);
+    text-decoration: none;
 }
 
 /*|||||||||||| Endereço ||||||||||||*/
