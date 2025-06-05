@@ -829,8 +829,19 @@ input{
     width: 10rem;
     height: 2.15rem;
     background-color: var(--destaque);
-    color: white;
+    color: var(--primaria);
     border: none;
+}
+
+.btnBuy:hover{
+    transition: 0.5s;
+    font-weight: var(--font-weight-regular);
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2.15rem;
+    background-color: var(--primaria);
+    color: var(--destaque);
+    border: 1px solid var(--destaque);
 }
 
 .heart{
@@ -891,16 +902,118 @@ input{
 
 /*|||||||||||| Carrinho ||||||||||||*/
 
-.cardGeneral{
+.cartGeneral{
+    width: 100%;
+    height: 25rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
     background-color: var(--secundaria);
 }
 
-.cardGeneral1{
+.cartGeneralVariant{
+    width: 100%;
+    height: 25rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
     background-color: var(--contraste_secundaria);
+}
+
+.cartText{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.cartProductName{
+    margin-top: 6rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 2.5rem;
+}
+
+.cartProductPrice{
+    margin-top: -2rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 1.7rem;
+}
+
+.counter{
+    width: 3.5rem;
+    height: 1.5rem;
+    background-color: var(--contraste_secundaria);
+    border: 1px solid var(--destaque);
+    border-radius: 3rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.btnRemove{
+    margin-top: 2rem;
+    width: 17rem;
+    height: 3rem;
+    background-color: var(--primaria);
+    border: 1px solid var(--destaque);
+    border-radius: 1rem;
+    font-weight: var(--font-weight-regular);
+    color: var(--destaque);
+    font-size: 1rem;
+}
+
+.btnRemove:hover{
+    transition: 0.5s;
+    margin-top: 2rem;
+    width: 17rem;
+    height: 3rem;
+    background-color: var(--destaque);
+    border: 1px solid var(--destaque);
+    border-radius: 1rem;
+    font-weight: var(--font-weight-regular);
+    color: var(--primaria);
+    font-size: 1rem;
+}
+
+.cardImg{
+    margin-top: 3rem;
+    margin-left: 50rem;
+}
+
+.cardImgVariant{
+    margin-top: 2rem;
+    margin-left: 50rem;
+}
+
+.cartTextRealize{
+    width: 200rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.btnRealize{
+    margin-top: 2rem;
+    width: 23rem;
+    height: 4rem;
+    background-color: var(--destaque);
+    border: 1px solid var(--destaque);
+    border-radius: 1rem;
+    font-weight: var(--font-weight-regular);
+    color: var(--primaria);
+    font-size: 1.7rem;
+}
+
+.btnRealize:hover{
+    transition: 0.5s;
+    margin-top: 2rem;
+    width: 23rem;
+    height: 4rem;
+    background-color: var(--primaria);
+    border-radius: 1rem;
+    font-weight: var(--font-weight-regular);
+    color: var(--destaque);
+    font-size: 1.7rem;
+    border: 1px solid var(--destaque);
 }
