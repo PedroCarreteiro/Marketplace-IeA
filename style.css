@@ -1017,3 +1017,30 @@ input{
     font-size: 1.7rem;
     border: 1px solid var(--destaque);
 }
+
+/*|||||||||||| Trator ||||||||||||*/
+
+.prodGeneral{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primaria);
+}
+
+.prodElements{
+    border: 2px solid red;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.prodText{
+
+}
+
+.prodButtom{
+
+}
