@@ -1021,15 +1021,17 @@ input{
 /*|||||||||||| Trator ||||||||||||*/
 
 .prodGeneral{
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 100%;
-    height: 25rem;
+    height: 35rem;
     display: flex;
     flex-direction: row;
     background-color: var(--primaria);
 }
 
 .prodElements{
-    border: 2px solid red;
     width: 30rem;
     height: 30rem;
     display: flex;
@@ -1038,9 +1040,61 @@ input{
 }
 
 .prodText{
-
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.prodButtom{
-
+.prodProductName{
+    margin-top: 2rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 2.5rem;
 }
+
+.prodDescription{
+    margin-top: -1rem;
+    font-weight: var(--font-weight-extralight);
+    font-size: 1.5rem;
+}
+
+.prodProductPrice{
+    margin-top: -0.5rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 1.7rem;
+}
+
+.prodBottom{
+    width: 30rem;
+    display: inline-block;
+    padding-top: -25rem;
+}
+
+.prodBottom input{
+    margin-left: 2rem;
+}
+
+.btnAddCart{
+    width: 20rem;
+    height: 4rem;
+    background-color: var(--destaque);
+    border: 1px solid var(--destaque);
+    border-radius: 1rem;
+    font-weight: var(--font-weight-regular);
+    color: var(--primaria);
+    font-size: 1.5rem;
+}
+
+.btnAddCart:hover{
+    transition: 0.5s;
+    width: 20rem;
+    height: 4rem;
+    background-color: var(--primaria);
+    border-radius: 1rem;
+    font-weight: var(--font-weight-regular);
+    color: var(--destaque);
+    font-size: 1.5rem;
+    border: 1px solid var(--destaque);
+}
+
+,prodImg
