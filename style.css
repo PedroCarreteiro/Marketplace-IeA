@@ -940,7 +940,7 @@ input{
 
 .counter{
     width: 3.5rem;
-    height: 1.5rem;
+    height: 2rem;
     background-color: var(--contraste_secundaria);
     border: 1px solid var(--destaque);
     border-radius: 3rem;
@@ -1036,7 +1036,7 @@ input{
     height: 30rem;
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
+    margin-left: 10rem;
 }
 
 .prodText{
@@ -1097,4 +1097,13 @@ input{
     border: 1px solid var(--destaque);
 }
 
-,prodImg
+.prodImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30rem;
+}
+
+.avaliacao{
+    
+}
