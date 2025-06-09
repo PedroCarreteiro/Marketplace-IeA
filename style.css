@@ -444,6 +444,7 @@ input{
 
 .adressRegisterGeneral{
     margin-top: 5rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -539,7 +540,7 @@ input{
     width: 28rem;
     height: 3rem;
     color: var(--destaque);
-    border: 2px solid var(--destaque);
+    border: 1px solid var(--destaque);
     background-color: var(--primaria);
     transition: 0.5s;
     text-decoration: none;
@@ -573,19 +574,45 @@ input{
     text-decoration: none;
 }
 
-/*|||||||||||| Endereço ||||||||||||*/
+/*|||||||||||| Confirmar Endereço ||||||||||||*/
 
-
-.adressGeneral{    
-    margin-top: 5rem;
+.adressBtnConfirm{
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 28rem;
+    height: 3rem;
+    background-color: var(--destaque);
+    color: white;
+    border: none;
+    text-decoration: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    background-color: var(--primaria);
-    width: 50rem;
-    height: 52rem;
-    border-radius: 1rem;
 }
+
+.adressBtnConfirm:hover{
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 28rem;
+    height: 3rem;
+    color: var(--destaque);
+    border: 1px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adressBtnConfirm p{
+    margin-left: 5rem;
+}
+
 
 /*|||||||||||| Navbar ||||||||||||*/
 
