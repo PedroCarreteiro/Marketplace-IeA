@@ -133,8 +133,21 @@ input{
     width: 30rem;
     height: 3rem;
     background-color: var(--destaque);
-    color: white;
+    color: var(--primaria);
     border: none;
+}
+
+.btnLogin:hover{
+    margin-top: 2rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 3rem;
+    color: var(--destaque);
+    border: 2px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
 }
 
 .imgLogin{
@@ -283,10 +296,22 @@ input{
     width: 30rem;
     height: 3rem;
     background-color: var(--destaque);
-    color: white;
+    color: var(--primaria);
     border: none;
 }
 
+.btnRecuperar:hover{
+    margin-top: 2rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 3rem;
+    color: var(--destaque);
+    border: 2px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
+}
 
 /*|||||||||||| Register ||||||||||||*/
 
@@ -367,8 +392,21 @@ input{
     width: 30rem;
     height: 3rem;
     background-color: var(--destaque);
-    color: white;
+    color: var(--primaria);
     border: none;
+}
+
+.btnRegister:hover{
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 3rem;
+    color: var(--destaque);
+    border: 2px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
 }
 
 .imgRegister{
@@ -487,6 +525,23 @@ input{
     background-color: var(--destaque);
     color: white;
     border: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adressBtnRegister:hover{
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 28rem;
+    height: 3rem;
+    color: var(--destaque);
+    border: 2px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -724,12 +779,15 @@ input{
 
 
 .categorie{
-    width: 20rem;
+    width: 25rem;
     height: 25rem; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
     display: flex;
+    border: 2px solid var(--destaque);
+    background-color: var(--primaria);
+    border-radius: 1rem;
 }
 
 .headerCategorie{
@@ -743,17 +801,6 @@ input{
 .titleCategorie{
     font-weight: var(--font-weight-extralight);
     font-size: 2rem;
-}
-
-.btnBuy{
-    margin-top: 1rem;
-    font-weight: var(--font-weight-regular);
-    border-radius: 1rem;
-    width: 10rem;
-    height: 2.15rem;
-    background-color: var(--destaque);
-    color: white;
-    border: none;
 }
 
 .heart{
@@ -795,12 +842,15 @@ input{
 
 
 .product{
-    width: 20rem;
-    height: 25rem; 
+    width: 23rem;  
+    height: 28rem; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
     display: flex;
+    border: 2px solid var(--destaque);
+    background-color: var(--primaria);
+    border-radius: 1rem;
 }
 
 .headerProduct{
@@ -824,21 +874,24 @@ input{
 }
 
 .btnBuy{
+    margin-top: 1rem;
     font-weight: var(--font-weight-regular);
+    font-size: 1.2rem;
     border-radius: 1rem;
-    width: 10rem;
-    height: 2.15rem;
+    width: 15rem;
+    height: 2.7rem;
     background-color: var(--destaque);
-    color: var(--primaria);
+    color: white;
     border: none;
 }
 
 .btnBuy:hover{
     transition: 0.5s;
     font-weight: var(--font-weight-regular);
+    font-size: 1.2rem;
     border-radius: 1rem;
-    width: 10rem;
-    height: 2.15rem;
+    width: 15rem;
+    height: 2.7rem;
     background-color: var(--primaria);
     color: var(--destaque);
     border: 1px solid var(--destaque);
@@ -868,7 +921,7 @@ input{
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    height: 30rem;
+    height: 35rem;
 }
 
 .productsTitle{
