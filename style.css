@@ -3,7 +3,6 @@
 :root{
     --font-weight-regular: 400;
     --font-weight-extralight: 200;
-    --font-weight-thin: 100;
     --primaria: #ffffff;
     --destaque: #128A00;
     --secundaria: #EBEBEB;
@@ -1235,4 +1234,98 @@ input{
 .avaliacaoContent p, date{
     font-weight: var(--font-weight-extralight);
     font-size: 2rem;
+}
+
+/*|||||||||||| Pagamento ||||||||||||*/
+
+.confirmarPagamento{
+    width: 100%;
+    height: 40rem;
+    background-color: var(--primaria);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.confirmarPagamento h1{
+    padding-top: 2rem;
+    margin-left: 5rem;
+    font-weight: var(--font-weight-extralight);
+    font-size: 3rem;
+}
+
+.selectionBox{
+    margin-left: 5rem;
+    font-weight: var(--font-weight-extralight);
+    font-size: 2rem;
+    width: 12rem;
+    height: 4rem;
+    border: 1px solid var(--destaque);
+}
+.selectionBox select{
+    width: 10rem;
+}
+
+.totalTxt{
+    margin-left: 5rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 2rem;
+}
+
+.freteTxt{
+    margin-left: 5rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 2rem;
+}
+
+.totalFreteTxt{
+    margin-left: 5rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 2rem;
+    color: var(--destaque);
+}
+
+.paragrafPagamento{
+    margin-left: 5rem;
+    font-weight: var(--font-weight-extralight);
+    font-size: 2rem;
+    justify-content: baseline;
+}
+
+.btnFinalizar{
+    margin-left: 5rem;
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 18rem;
+    height: 3rem;
+    background-color: var(--destaque);
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnFinalizar:hover{
+    margin-left: 5rem;
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 18rem;
+    height: 3rem;
+    color: var(--destaque);
+    border: 1px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnFinalizar p{
+    margin-left: 6.3rem;
 }
