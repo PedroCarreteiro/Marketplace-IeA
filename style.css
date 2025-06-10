@@ -1363,3 +1363,20 @@ input{
     flex-direction: column;
 }
 
+/*|||||||||||| Entrega ||||||||||||*/
+
+.confirmarPagamento{
+    width: 100%;
+    height: 40rem;
+    background-color: var(--contraste_bright);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.confirmarPagamento h1{
+    padding-top: 2rem;
+    margin-left: 5rem;
+    font-weight: var(--font-weight-extralight);
+    font-size: 3rem;
+}
+
