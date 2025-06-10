@@ -1435,3 +1435,24 @@ input{
     font-weight: var(--font-weight-extralight);
     font-size: 1.7rem;
 }
+
+/*|||||||||||| Perfil ||||||||||||*/
+
+.navbarPerfil{
+    width: 100%;
+    height: 7.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--destaque);
+}
+
+.homeNav, .prodNav{
+   text-decoration: none;
+   color: var(--contraste_black);
+   font-weight: var(--font-weight-regular);
+   font-size: 2rem;
+   margin-left: 3rem;
+}
+  
+
