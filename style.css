@@ -1365,7 +1365,7 @@ input{
 
 /*|||||||||||| Entrega ||||||||||||*/
 
-.confirmarPagamento{
+.entregaSection{
     width: 100%;
     height: 40rem;
     background-color: var(--contraste_bright);
@@ -1373,10 +1373,65 @@ input{
     margin-bottom: 4rem;
 }
 
-.confirmarPagamento h1{
+.entregaSection h1{
     padding-top: 2rem;
     margin-left: 5rem;
     font-weight: var(--font-weight-extralight);
     font-size: 3rem;
 }
 
+.entregaSection img{
+    margin-left: 4rem;
+}
+
+.estadoGeneral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content:space-around; */
+    width: 102rem;
+    height: 15rem;
+}
+
+.estadoFirst{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.estado{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 4.5rem; 
+}
+
+.estadoUni{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 4.5rem;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.estadoUni date{
+    margin-top: -1.0rem;
+}
+
+.estado p, .estadoFirst p, .estadoUni p{
+    font-weight: var(--font-weight-extralight);
+    font-size: 1.7rem;
+}
+
+.estado date, .estadoFirst date, .estadoUni date{
+    font-weight: var(--font-weight-extralight);
+    font-size: 1.7rem;
+}
