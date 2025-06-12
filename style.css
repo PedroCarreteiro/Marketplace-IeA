@@ -640,7 +640,7 @@ input{
 
 .searchNavArticle{
     margin-left: 3rem;
-    width: 70rem;
+    width: 60%;
     height: 3.5rem;
     border-radius: 2rem;
     border: none;
@@ -653,7 +653,7 @@ input{
 
 .search{
     margin-left: 2rem;
-    width: 63rem;
+    width: 90%;
     height: 3.5rem;
     border-radius: 2rem;
     border: none;
@@ -1444,7 +1444,15 @@ input{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     background-color: var(--destaque);
+}
+
+.navbarPerfil a{
+   text-decoration: none;
+   color: var(--primaria);
+   font-weight: var(--font-weight-regular);
+   font-size: 2rem;
 }
 
 .homeNav, .prodNav{
