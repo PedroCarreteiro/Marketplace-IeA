@@ -1538,7 +1538,7 @@ input{
 }
 
 .btnData{
-    height: 3rem;
+    height: 2.5rem;
     width: 15rem;
     color: var(--primaria);
     font-weight: var(--font-weight-extralight);
@@ -1550,7 +1550,7 @@ input{
 
 .btnData:hover{
     transition: 1s;
-    height: 3rem;
+    height: 2.5rem;
     width: 15rem;
     color: var(--destaque);
     font-weight: var(--font-weight-extralight);
@@ -1561,13 +1561,31 @@ input{
 }
 
 .perfilDadosRight{
-    margin-left: 65rem;
+    margin-left: 58rem;
     display: flex;
     flex-direction: column;
 }
 
 .imagemPerfil{
-    
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.imagemPerfil p{
+    font-weight: var(--font-weight-extralight);
+    font-size: 2rem;
+}
+
+.inputFile{
+    font-weight: var(--font-weight-extralight);
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+.redzonePerfil{
+    
+}
 
