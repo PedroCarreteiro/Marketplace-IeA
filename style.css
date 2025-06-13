@@ -1622,3 +1622,39 @@ input{
     border-radius: 1rem;
 }
 
+.adressBtnChange{
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 28rem;
+    height: 3rem;
+    background-color: var(--destaque);
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adressBtnChange:hover{
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 28rem;
+    height: 3rem;
+    color: var(--destaque);
+    border: 1px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adressBtnChange p{
+    margin-left: 8rem;
+}
