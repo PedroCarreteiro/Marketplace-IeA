@@ -1780,6 +1780,15 @@ input{
     justify-content: center;
 }
 
+.sobre3TextVariant{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .sobre3Txt{
     font-weight: var(--font-weight-extralight);
     font-size: 2rem;
