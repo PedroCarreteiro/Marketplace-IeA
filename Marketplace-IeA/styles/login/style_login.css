@@ -1,0 +1,105 @@
+:root{
+    --font-weight-regular: 400;
+    --font-weight-extralight: 200;
+    --primaria: #ffffff;
+    --destaque: #128A00;
+    --secundaria: #EBEBEB;
+    --contraste_secundaria: #D0D0D0;
+    --contraste_black: #000000;
+    --contraste_bright: #F5F5F5
+}
+
+.login_all{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
+    align-items: center;
+    width:"100vw";
+    height:"100vh";
+}
+
+.login_general{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primaria);
+    width: 50rem;
+    height: 50rem;
+    border-radius: 1rem;
+}
+
+.login_logo{
+    margin-top: 3rem;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt_form{
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: xx-large;
+}
+
+.input_form{
+    margin-top: 1rem;
+    width: 30rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--secundaria);
+    padding: auto;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+.input{
+    margin-left: 2rem;
+    width: 27rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--secundaria);
+    padding: auto;
+    outline: none;
+}
+
+.input::placeholder  {
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: large;
+}
+
+.btn_login{
+    margin-top: 2rem;
+    font-weight: var(--font-weight-regular);
+    font-size: x-large;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 3rem;
+    background-color: var(--destaque);
+    color: white;
+    border: none;
+}
+
+.img_login{
+    margin-top: 5rem;
+}
+
+.paragraf_register{
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: large;
+}
+
+.link_register{
+    font-weight: var(--font-weight-regular);
+    color: var(--destaque);
+    font-size: large;
+    text-decoration: none;
+}
