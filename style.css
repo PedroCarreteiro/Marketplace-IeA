@@ -1693,3 +1693,33 @@ input{
 
 /*|||||||||||| Sobre nós ||||||||||||*/
 
+.sobreTxt{
+    margin-left: 5rem;
+    font-weight: var(--font-weight-extralight);
+    font-size: 2rem;
+    text-justify: auto;
+}
+
+.sobreGeneral{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secundaria);
+}
+
+.sobreGeneralVariant{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--contraste_secundaria);
+}
+
+.cartText{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
