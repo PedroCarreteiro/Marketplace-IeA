@@ -1859,8 +1859,11 @@ input{
 }
 
 .contatoInside{
+    width: 90rem;
+    height: 35rem;
     display: flex;
     flex-direction: row;
+    border: 2px solid red;
 }
 
 .contatoInput{
@@ -1876,4 +1879,13 @@ input{
 .txtInput p{
     font-weight: var(--font-weight-extralight);
     text-align: justify;
+}
+
+.inputContato{
+    width: 50rem;
+    height: 30rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--secundaria);
+    outline: none;
 }
