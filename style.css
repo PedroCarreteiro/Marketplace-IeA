@@ -1898,3 +1898,8 @@ input{
     background-color: var(--secundaria);
     outline: none;
 }
+
+.inputContato::placeholder{
+    font-size: x-large;
+    font-weight: var(--font-weight-extralight);
+}
