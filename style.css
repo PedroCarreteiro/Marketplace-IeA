@@ -1780,15 +1780,6 @@ input{
     justify-content: center;
 }
 
-.sobre3TextVariant{
-    width: 30rem;
-    height: 30rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .sobre3Txt{
     font-weight: var(--font-weight-extralight);
     font-size: 2rem;
@@ -1799,4 +1790,90 @@ input{
     font-weight: var(--font-weight-regular);
     font-size: 2.5rem;
     text-align: center;
+}
+
+/*||||||||||| Contato ||||||||||||*/
+
+.contato3General{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.contato3TextPrimary{
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato3TextSecondary{
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato3Txt{
+    font-weight: var(--font-weight-extralight);
+    text-align: justify;
+}
+
+.contato3Txt2{
+    font-weight: var(--font-weight-extralight);
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.contato3TextPrimary p{
+    font-size: 2rem;
+}
+
+.contato3TextSecondary p{
+    font-size: 1.5rem;
+}
+
+.txth1Contato{
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: 3rem;
+    margin-left: -50rem;
+}
+
+.contatoGeneral{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primaria);
+    width: 100rem;
+    height: 50rem;
+    border-radius: 1rem;
+}
+
+.contatoInside{
+    display: flex;
+    flex-direction: row;
+}
+
+.contatoInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.txtInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.txtInput p{
+    font-weight: var(--font-weight-extralight);
+    text-align: justify;
 }
