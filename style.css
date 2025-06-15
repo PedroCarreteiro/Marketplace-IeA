@@ -2111,3 +2111,114 @@ textarea{
 .productsTitle:hover{
    color: var(--destaque);
 }
+
+/*|||||||||||| Adicionar categoria ||||||||||||*/
+
+.novaCategoriaRegisterGeneral{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primaria);
+    width: 100rem;
+    height: 50rem;
+    border-radius: 1rem;
+}
+
+.novaCategoriaRegisterForm{
+    width: 90rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30rem;
+}
+
+.novaCategoriaRegister{
+    display: flex;
+    flex-direction: column;
+}
+
+.novaCategoriaRegister1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.txth1Categoria{
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: 3rem;
+    margin-left: -1rem;
+}
+
+.novaCategoriaInputForm{
+    width: 28rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--secundaria);
+    padding: auto;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.novaCategoriaInput{
+    margin-left: 2rem;
+    width: 26rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--secundaria);
+    padding: auto;
+    outline: none;
+}
+
+.novaCategoriaInput::placeholder  {
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: large;
+}
+
+.inputGeneral .inputFile{
+    margin-top: 2rem;
+}
+
+/*|||||||||||| Editar categoria ||||||||||||*/
+
+.headerEditCategorie{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100rem;
+    height: 10rem;
+}
+
+.btnRedCategorie{
+    margin-left: 50rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: var(--primaria);
+    background-color: var(--alerta);
+    border: 2px solid var(--alerta);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2.3rem;
+    font-weight: var(--font-weight-regular);
+    font-size: large;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.btnRedCategorie:hover{
+    transition: 1s;
+    color: var(--alerta);
+    background-color: var(--primaria);
+    border: 1px solid var(--alerta);
+    font-weight: var(--font-weight-regular);
+    font-size: large;
+    text-decoration: none;
+    border-radius: 1rem;
+}
