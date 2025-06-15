@@ -2317,3 +2317,30 @@ textarea{
     margin-top: 3rem;
     margin-left: 60rem;
 }
+
+
+/*|||||||||||| Imagens ||||||||||||*/
+
+.profileAdministradores{
+    width:20rem;
+    height:20rem;
+}
+
+.logoNavbar{
+    width: 7rem;
+    height: 7rem;
+}
+
+.profileNav{
+    width: 4rem;
+    height: 4rem;
+}
+
+.produtorRural{
+    width: 30rem;
+    height: 40rem;
+}
+
+.loupeSearch{
+    
+}
