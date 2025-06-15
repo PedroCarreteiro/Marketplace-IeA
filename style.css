@@ -2149,7 +2149,7 @@ textarea{
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: 3rem;
-    margin-left: -1rem;
+    margin-left: -65rem;
 }
 
 .novaCategoriaInputForm{
@@ -2221,4 +2221,11 @@ textarea{
     font-size: large;
     text-decoration: none;
     border-radius: 1rem;
+}
+
+.txth1CategoriaEditar{
+    font-weight: var(--font-weight-extralight);
+    color: var(--contraste_black);
+    font-size: 3rem;
+    margin-left: -1rem;
 }
