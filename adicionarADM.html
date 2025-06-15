@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Perfil</title>
+        <title>Adicionar ADM</title>
         <link rel="icon" type="image/x-icon" href="./imagens/icons/favicon.ico"/>
         <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -11,27 +11,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
     </head>
     <body>
-        <nav class="navbar">
-            <figure>
+        <nav class="navbarAdmin">
+            <figure class="figureLogoNavAdm">
                 <img class="logoNavbar" src="imagens/icons/logo.png" width="110rem" height="110rem" alt="Logo"/>
             </figure>
-            <a href="home.html" class="homeNav">Home</a>
-            <a href="produtos.html" class="prodNav">Produtos</a>
-            <article class="searchNavArticle">
-                <input type="search" name="search" class="search" placeholder="Pesquisar"/>
-                <a href="pesquisa.html" class="lupa">
-                    <figure>
-                        <img src="imagens/icons/loupe.png" width="30rem" height="30rem" class="loupeSearch" alt="Lupa para pesquisar"/>
-                    </figure>
-                </a>
-            </article>
-            <a href="carrinho.html" class="imgA">
-                <figure>
-                    <img src="imagens/icons/shopping-cart.png" width="55rem" height="55rem" class="cart" alt="Carrinho"/>
-                </figure>
-                <p>Carrinho</p>
-            </a>
-            <a href="perfil.html" class="imgA">
+            <a href="dashboard.html" class="navAdmDashboard">Dashboard</a>
+            <a href="estoque.html" class="navAdmEstoque">Estoque</a>
+            <a href="administradores.html" class="navAdmAdministradores">Administradores</a>
+            <a href="perfilADM.html" class="imgAAdm">
                 <figure>
                     <img src="imagens/icons/profile-user.png" width="55rem" height="55rem" class="profile" alt="Perfil"/>
                 </figure>
@@ -39,42 +26,32 @@
             </a>
         </nav>
 
-        <nav class="navbarPerfil">
-            <a href="historico.html" class="historicoNav">Histórico de pedidos</a>
-            <a href="favoritos.html" class="historicoNav">Favoritos</a>
-            <a href="contato.html" class="historicoNav">Contate-nos</a>
-            <a href="sobre.html" class="historicoNav">Sobre nós</a>
-        </nav>
-
         <main class="adressMain">
 
             <article class="perfilDados">
                 <article class="perfilDadosLeft">
                     <section class="meusDados">
-                        <h1 class="nomePerfil">José Santos</h1>
-                        <h1 class="hPerfil">Meus dados</h1>
+                        <h1 class="nomePerfil">Adicionar administrador</h1>
+                        <h1 class="hPerfil">Dados</h1>
                         <form class="atualizarDados">
                             <label>Nome</label>
-                            <input type="text" name="text" class="dataInput" placeholder="José Santos"/>
+                            <input type="text" name="text" class="dataInput" placeholder="Digite o nome do administrador"/>
                             <label>Email</label>
-                            <input type="text" name="text" class="dataInput" placeholder="josefino@gmail.com"/>
+                            <input type="text" name="text" class="dataInput" placeholder="Digite o email do administrador"/>
                             <label>Telefone</label>
-                            <input type="text" name="text" class="dataInput" placeholder="123456"/>
+                            <input type="text" name="text" class="dataInput" placeholder="Digite o telefone do administrador"/>
                         </form>
-                        <article class="articleButtom">
-                            <button class="btnData">Atualizar dados</button>
-                        </article>
                     </section>
                     <section class="alterarSenha">
-                        <h1 class="hSenha">Altere sua senha</h1>
+                        <h1 class="hSenha">Cadastro de senha</h1>
                         <form class="atualizarDados">
-                            <label>Senha atual</label>
-                            <input class="dataInput" placeholder="Digite sua senha atual"/>
-                            <label>Email</label>
-                            <input class="dataInput" placeholder="Digite a nova senha"/>
+                            <label>Senha</label>
+                            <input class="dataInput" placeholder="Digite a senha"/>
+                            <label>Confirmar senha</label>
+                            <input class="dataInput" placeholder="Digite a novamente nova senha"/>
                         </form>
                         <article class="articleButtom">
-                            <button class="btnData">Alterar senha</button>
+                            <button class="btnData">Cadastrar administrador</button>
                         </article>
                     </section>
                 </article>
@@ -83,72 +60,10 @@
                         <img src="imagens/imgs/perfil.png" width="400" height="400"/>
                         <p>Imagem de perfil</p>
                         <input type="file" class="inputFile"/>
-                        <button class="btnData">Atualizar</button>
-                    </article>
-                    <article class="redzonePerfil">
-                        <a href="login.html" class="btnRed">Realizar logout</a>
-                        <a href="login.html" class="btnRed">Excluir conta</a>
                     </article>
                 </article>
             </article>
 
-
-            <section class="adressRegisterGeneral">
-                <h1 class="txth1">Qual o seu endereço</h1>
-                <form class="adressRegisterForm">
-                    <article class="adressRegister">
-                        <article class="inputGeneral">
-                            <label class="label">CEP</label>
-                            <article class="adressInputForm">
-                                <input type="text" name="text" class="adressInput" placeholder="1065236"/>
-                            </article>
-                        </article>
-                        <article class="inputGeneral">
-                            <label class="label">Estado</label>
-                            <article class="adressInputForm">
-                                <input type="text" name="text" class="adressInput" placeholder="São Paulo"/>
-                            </article>
-                        </article>
-                        <article class="inputGeneral">
-                            <label class="label">Cidade</label>
-                            <article class="adressInputForm">
-                                <input type="text" name="text" class="adressInput" placeholder="Campinas"/>
-                            </article>
-                        </article>
-                    </article>
-                    <article class="adressRegister1">
-                        <article class="inputGeneral">
-                            <label class="label">Bairro</label>
-                            <article class="adressInputForm">
-                                <input type="text" name="text" class="adressInput" placeholder="Cambuí"/>
-                            </article>
-                        </article>
-                        <article class="inputGeneral">
-                            <label class="label">Rua</label>
-                            <article class="adressInputForm">
-                                <input type="text" name="text" class="adressInput" placeholder="Rua da Joesefina"/>
-                            </article>
-                        </article>
-                        <article class="inputGeneral">
-                            <label class="label">Número da residencia</label>
-                            <article class="adressInputForm">
-                                <input type="text" name="text" class="adressInput" placeholder="89"/>
-                            </article>
-                        </article>
-                        <article class="adressFinal">
-                        </article>
-                    </article>
-                    <article class="adressRegister1">
-                        <article class="inputGeneral">
-                            <label class="label">Complemento</label>
-                            <article class="adressInputForm">
-                                <input type="text" name="text" class="adressInput" placeholder="Apartamento 388"/>
-                            </article>
-                        </article>
-                    </article>
-                </form>
-                <a href="" class="adressBtnChange"><p>Alterar endereço</p></a>
-            </section>
         </main>
         <footer class="footer">
                 <article class="footerLeft">
