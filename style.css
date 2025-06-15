@@ -1912,3 +1912,38 @@ textarea{
     font-size: x-large;
     font-weight: var(--font-weight-extralight);
 }
+
+
+.navbarAdmin{
+    width: 100%;
+    height: 7.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--primaria);
+}
+
+.navbarAdmin a{
+   text-decoration: none;
+   color: var(--contraste_black);
+   font-weight: var(--font-weight-regular);
+   font-size: 2rem;
+   margin-left: 3rem;
+}
+
+.navbarAdmin a:hover{
+   color: var(--destaque);
+}   
+
+.imgA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4rem;
+    text-decoration: none;
+}
+
+.imgA p{
+    margin-top: -0.05rem;
+    color: var(--contraste_black);
+}
