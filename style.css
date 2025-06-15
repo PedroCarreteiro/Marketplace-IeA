@@ -1939,7 +1939,7 @@ textarea{
    margin-left: 3rem;
 }
 
-.navAdmDashboard:hover, .navAdmEstoque:hover, navAdmAdministradores:hover{
+.navAdmDashboard:hover, .navAdmEstoque:hover, .navAdmAdministradores:hover{
    color: var(--destaque);
 }   
 
@@ -2280,4 +2280,40 @@ textarea{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+/*|||||||||||| Administradores ||||||||||||*/
+
+.btnAddADM{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 17rem;
+    height: 3rem;
+    background-color: var(--destaque);
+    border: 1px solid var(--destaque);
+    border-radius: 1rem;
+    font-weight: var(--font-weight-regular);
+    color: var(--primaria);
+    font-size: 1rem;
+}
+
+.btnAddADM:hover{
+    transition: 0.5s;
+    width: 17rem;
+    height: 3rem;
+    background-color: var(--primaria);
+    border: 1px solid var(--destaque);
+    border-radius: 1rem;
+    font-weight: var(--font-weight-regular);
+    color: var(--destaque);
+    font-size: 1rem;
+}
+
+.cartText .btnAddADM{
+    margin-left: 0rem;
+}
+
+.cardImgADM{
+    margin-top: 3rem;
+    margin-left: 60rem;
 }
