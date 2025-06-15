@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Login ADM</title>
+        <title>Login Adminstrador</title>
         <link rel="icon" type="image/x-icon" href="./imagens/icons/favicon.ico"/>
         <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -13,40 +13,34 @@
     <body>
         <main>
             <article class="loginAll">
-                <article class="adressGeneral">
-                    <section class="registerForm"> 
-                        <p class="txtForm">Cadastre seu endereço</p>
-                        <form class="endereçoForm">
-                            <article class="inputForm">
-                                <input type="text" name="text" class="input" placeholder="CEP"/>
+                <article class="loginGeneral">
+                    <article class="loginLogo">
+                        <figure>
+                            <img src="imagens/icons/logo.png" width="250rem" height="250rem" alt="Logo"/>
+                        </figure>
+                    </article>
+                    <section class="loginFormGeneral"> 
+                        <p class="txtForm">Realize Login no I&Adm</p>
+                        <form class="loginForm">
+                            <article class="inputGeneral">
+                                <label class="label">Usuário</label>
+                                <article class="inputForm">
+                                    <input type="email" name="email" class="input" placeholder="Digite seu usuário"/>
+                                </article>
                             </article>
-                            <article class="inputForm">
-                                <input type="text" name="text" class="input" placeholder="Estado"/>
-                            </article>
-                            <article class="inputForm">
-                                <input type="text" name="text" class="input" placeholder="Cidade"/>
-                            </article>
-                            <article class="inputForm">
-                                <input type="text" name="text" class="input" placeholder="Bairro"/>
-                            </article>
-                            <article class="inputForm">
-                                <input type="text" name="text" class="input" placeholder="Rua"/>
-                            </article>
-                            <article class="inputForm">
-                                <input type="text" name="text" class="input" placeholder="Número da residência"/>
-                            </article>
-                            <article class="inputForm">
-                                <input type="text" name="text" class="input" placeholder="Complemento"/>
+                            <article class="inputGeneral">
+                                <label class="label">Senha</label>
+                                <article class="inputForm">
+                                    <input type="password" name="senha" class="input" placeholder="Digite sua senha"/>
+                                </article>
                             </article>
                         </form>
-                        <a href="home.html"><button class="btnRegister" type="submit">Finalizar cadastro</button></a>
+                        <a href="home.html"><button class="btnLogin" type="submit">Login</button></a>
                     </section>
-                    <p class="paragrafRegister">Já tem uma conta?</p>
-                    <a href="cadastro.html" class="linkLogin">Faça login!</a>
                 </article>
                 <article class="imgLogin">
                     <figure>
-                        <img src="imagens/imgs/imagem_endereço.jpg" alt="Transferência de grãos"/>
+                        <img src="imagens/imgs/imagem_loginADM.jpg" alt="Produtor rural"/>
                     </figure>
                 </article>
             </article>
