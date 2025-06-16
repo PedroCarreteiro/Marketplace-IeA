@@ -1061,12 +1061,10 @@ textarea{
 }
 
 .cardImg{
-    margin-top: 3rem;
     margin-left: 50rem;
 }
 
 .cardImgVariant{
-    margin-top: 2rem;
     margin-left: 50rem;
 }
 
@@ -2332,8 +2330,8 @@ textarea{
 }
 
 .profileNav{
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 .produtorRural{
@@ -2342,5 +2340,26 @@ textarea{
 }
 
 .loupeSearch{
-    
+    width: 2rem;
+    height: 2rem;
+}
+
+.b50Carrinho{
+    width: 25rem;
+    height: 25rem;
+}
+
+.jactoCarrinho{
+    width: 25rem;
+    height: 25rem;
+}
+
+.heart{
+    width: 2rem;
+    height: 2rem;
+}
+
+.imgProduct{
+    width: 13rem;
+    height: 13rem;
 }
