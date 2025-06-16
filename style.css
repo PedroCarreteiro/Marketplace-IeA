@@ -2363,3 +2363,7 @@ textarea{
     width: 13rem;
     height: 13rem;
 }
+
+.tratorCampo{
+    width: 100%;
+}
