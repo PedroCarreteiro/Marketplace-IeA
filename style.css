@@ -443,26 +443,36 @@ label{
 .btnRecuperar{
     margin-top: 2rem;
     font-weight: var(--font-weight-regular);
-    font-size: x-large;
-    border-radius: 2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
     width: 30rem;
-    height: 3rem;
+    height: 2.7rem;
     background-color: var(--destaque);
-    color: var(--primaria);
-    border: none;
+    color: white;
+    border: 1px solid var(--destaque);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnRecuperar:hover{
     margin-top: 2rem;
     font-weight: var(--font-weight-regular);
-    font-size: x-large;
-    border-radius: 2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
     width: 30rem;
-    height: 3rem;
+    height: 2.7rem;
     color: var(--destaque);
-    border: 2px solid var(--destaque);
+    border: 1px solid var(--destaque);
     background-color: var(--primaria);
     transition: 0.5s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 /*|||||||||||| Register ||||||||||||*/
@@ -1170,6 +1180,9 @@ label{
     width: 30rem;
     display: inline-block;
     padding-top: -25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .prodBottom input{
@@ -1177,26 +1190,38 @@ label{
 }
 
 .btnAddCart{
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 1.5rem;
+    border-radius: 1rem;
     width: 20rem;
     height: 4rem;
     background-color: var(--destaque);
+    color: white;
     border: 1px solid var(--destaque);
-    border-radius: 1rem;
-    font-weight: var(--font-weight-regular);
-    color: var(--primaria);
-    font-size: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnAddCart:hover{
-    transition: 0.5s;
+    margin-top: 0rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 1.5rem;
+    border-radius: 1rem;
     width: 20rem;
     height: 4rem;
-    background-color: var(--primaria);
-    border-radius: 1rem;
-    font-weight: var(--font-weight-regular);
     color: var(--destaque);
-    font-size: 1.5rem;
     border: 1px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .avaliacoes{
@@ -1991,7 +2016,7 @@ label{
 }
 
 .dashboardText{
-    width: 75rem;
+    width: 79rem;
     align-items: start;
 }
 
