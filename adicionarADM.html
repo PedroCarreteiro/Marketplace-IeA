@@ -28,8 +28,8 @@
 
         <main class="adressMain">
 
-            <article class="perfilDados">
-                <article class="perfilDadosLeft">
+            <div class="perfilDados">
+                <div class="perfilDadosLeft">
                     <section class="meusDados">
                         <h1 class="nomePerfil">Adicionar administrador</h1>
                         <h1 class="hPerfil">Dados</h1>
@@ -54,15 +54,22 @@
                             <a href="administradores.html"><button class="btnData">Cadastrar administrador</button></a>
                         </article>
                     </section>
-                </article>
-                <article class="perfilDadosRight">
+                </div>
+                <div class="perfilDadosRight">
                     <article class="imagemPerfil">
-                        <img src="imagens/imgs/perfil.png" class="imgPerfil" alt="Imagem de perfil"/>
+                        <figure>
+                            <img src="imagens/imgs/perfil.png" class="imgPerfil" alt="Imagem de perfil"/>
+                        </figure>
                         <p>Imagem de perfil</p>
-                        <input type="file" class="inputFile"/>
+                        <form class="formImg">
+                            <div>
+                                <label class="labelImg">Selecione uma imagem de perfil</label>
+                                <input type="file" class="inputFile"/>
+                            </div>
+                        </form>
                     </article>
-                </article>
-            </article>
+                </div>
+            </div>
 
         </main>
         <footer class="footer">
