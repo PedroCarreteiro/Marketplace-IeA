@@ -3,8 +3,7 @@
 
 ![Logo Integrador](imagens/imgs/Logo-Integrador.png)
 
-Bem-vindo ao marketplace **I&A**, uma plataforma de comércio eletrônico voltada para o agronegócio, focada na comercialização de produtos tecnológicos como tratores, drones agrícolas e pulverizadores. O objetivo principal é conectar produtores rurais a soluções modernas e eficientes para impulsionar sua produção com inovação.
-
+Bem-vindo ao marketplace **I&A**. Este projeto tem como foco, a construção de um e-commerce que realize a venda de tratores, drones agrícolas e pulverizadoes que sejam de marcas de confiança e do mais alto nível tecnológico do mercado de maquinário agrícola. Com isso, esperamos alcançar nosso público-alvo e fazer com que haja um acordo entre as duas partes, com a expectativa que ambos os lados sejam beneficiados no fim do dia. 
 ---
 
 ## Funcionalidades
