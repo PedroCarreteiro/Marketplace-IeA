@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Sobre</title>
+        <title>Pulverizador</title>
         <link rel="icon" type="image/x-icon" href="./imagens/icons/favicon.ico"/>
         <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -13,7 +13,7 @@
     <body>
         <nav class="navbar">
             <figure>
-                <img class="logoNavbar" src="imagens/icons/logo.png" width="110rem" height="110rem" alt="Logo"/>
+                <img class="logoNavbar" src="imagens/icons/logo.png" alt="Logo"/>
             </figure>
             <a href="home.html" class="homeNav">Home</a>
             <a href="produtos.html" class="prodNav">Produtos</a>
@@ -21,75 +21,96 @@
                 <input type="search" name="search" class="search" placeholder="Pesquisar"/>
                 <a href="pesquisa.html" class="lupa">
                     <figure>
-                        <img src="imagens/icons/loupe.png" width="30rem" height="30rem" class="loupeSearch" alt="Lupa para pesquisar"/>
+                        <img src="imagens/icons/loupe.png" class="loupeSearch" alt="Lupa para pesquisar"/>
                     </figure>
                 </a>
             </article>
             <a href="carrinho.html" class="imgA">
                 <figure>
-                    <img src="imagens/icons/shopping-cart.png" width="55rem" height="55rem" class="cart" alt="Carrinho"/>
+                    <img src="imagens/icons/shopping-cart.png" class="profileNav" alt="Carrinho"/>
                 </figure>
                 <p>Carrinho</p>
             </a>
             <a href="perfil.html" class="imgA">
                 <figure>
-                    <img src="imagens/icons/profile-user.png" width="55rem" height="55rem" class="profile" alt="Perfil"/>
+                    <img src="imagens/icons/profile-user.png" class="profileNav" alt="Perfil"/>
                 </figure>
                 <p>Perfil</p>
             </a>
         </nav>
 
         <main>
-            <article class="sobreGeneral">
-                <article class="sobreText">
-                    <p class="sobreTxt">Olá, seja bem vindo(a) à I&A, a loja dos produtos agrícolas mais técnolológicos e inovadores no mercado.</p>
+            
+            <article class="prodGeneral">
+                <article class="prodElements">
+                    <article class="prodText">
+                    <p class="prodProductName">Jhon Deere 8R</p>
+                    <p class="prodDescription">Os Pulverizadores 4630 da John Deere permitem otimizar o uso de insumos, aplicando as gotas nos locais certos, alcançando com precisão os lugares mais difíceis.</p>
+                    <p class="prodProductPrice">R$2.300.000,00</p>
+                    </article>
+                    <article class="prodBottom">
+                        <a href="carrinho.html"><button class="btnAddCart">Adicionar ao carrinho</button></a>
+                        <input type="number" value="1" min="1" max="99" class="counter" id="prodCouter"/>
+                    </article>
+                </article>
+                <article class="prodImg">
+                    <figure>
+                        <img src="imagens/produtos/pulverizadores/4630.png" class="imgProdutoEsp" alt="John Deere 4630"/>
+                    </figure>
                 </article>
             </article>
 
-            <article class="sobreGeneralVariant">
-                <article class="sobreTextVariant">
-                    <p class="sobreTxt">Começamos em 2025, com apenas um desenvolvedor e uma ideia que poderia mudar o futuro da venda de produtos agrícolas (e mudou mesmo).</p>
+            <section class="avaliacoes">
+                <h1 class="avaliacaoTitle">Avaliações</h1>
+                
+                <article class="avaliacao">
+                    <article class="avaliacaoHeader">
+                        <p>Usuário1</p>
+                        <figure>
+                            <img class="imgAvaliacao" src="imagens/imgs/Avaliacao.png" alt="Estrelas de avaliação (4/5)"/>
+                        </figure>
+                    </article>
+                    <article class="avaliacaoContent">
+                        <p>I had the most incredible dining experience at this restaurant! The food was absolutely delicious - 
+                            every dish was perfectly prepared and beautifully presented. Our server was attentive, knowledgeable, 
+                            and made excellent recommendations. The atmosphere was elegant yet comfortable. 
+                            I can't wait to come back and try more items from their menu. Definitely a new favorite spot!</p>
+                        <date>24/05/2017</date>
+                    </article>
                 </article>
-            </article>
 
-            <article class="sobreGeneral">
-                <article class="sobreText">
-                    <p class="sobreTxt">Começamos pequeno, com poucas pessoas e recursos, e com muitos desafios pela frente.</p>
+                <article class="avaliacao">
+                    <article class="avaliacaoHeader">
+                        <p>Usuário1</p>
+                        <figure>
+                            <img class="imgAvaliacao" src="imagens/imgs/Avaliacao.png" alt="Estrelas de avaliação (4/5)"/>
+                        </figure>
+                    </article>
+                    <article class="avaliacaoContent">
+                        <p>I had the most incredible dining experience at this restaurant! The food was absolutely delicious - 
+                            every dish was perfectly prepared and beautifully presented. Our server was attentive, knowledgeable, 
+                            and made excellent recommendations. The atmosphere was elegant yet comfortable. 
+                            I can't wait to come back and try more items from their menu. Definitely a new favorite spot!</p>
+                        <date>24/05/2017</date>
+                    </article>
                 </article>
-            </article>
 
-            <article class="sobreGeneralVariant">
-                <article class="sobreTextVariant">
-                    <p class="sobreTxt">Mas sempre evoluindo com aquela ideia como foco, e a missão de impulsionar o desenvolvimento de produtores rurais.</p>
+                <article class="avaliacao">
+                    <article class="avaliacaoHeader">
+                        <p>Usuário1</p>
+                        <figure>
+                            <img class="imgAvaliacao" src="imagens/imgs/Avaliacao.png" alt="Estrelas de avaliação (4/5)"/>
+                        </figure>
+                    </article>
+                    <article class="avaliacaoContent">
+                        <p>I had the most incredible dining experience at this restaurant! The food was absolutely delicious - 
+                            every dish was perfectly prepared and beautifully presented. Our server was attentive, knowledgeable, 
+                            and made excellent recommendations. The atmosphere was elegant yet comfortable. 
+                            I can't wait to come back and try more items from their menu. Definitely a new favorite spot!</p>
+                        <date>24/05/2017</date>
+                    </article>
                 </article>
-            </article>
-
-            <article class="sobreGeneral1">
-                <article class="sobreText">
-                    <p class="sobreTxtVariant">Se você está até agora se perguntando qual foi a nossa ideia, ela é bem simples.</p>
-                </article>
-            </article>
-
-            <article class="sobreGeneralVariant1">
-                <article class="sobreText">
-                    <p class="sobreTxtVariant">ouvir e aplicar</p>
-                </article>
-            </article>
-
-            <article class="sobre3General">
-                <section class="sobre3TextVariant">
-                    <h1>Nossa missão</h1>
-                    <p class="sobre3Txt">Entregar produtos de qualidade para nossos clientes</p>
-                </section>
-                <section class="sobre3Text">
-                    <h1>Nossa visão</h1>
-                    <p class="sobre3Txt">Ser líder em vendas de produtos agrícolas de tecnologia de ponta</p>
-                </section>
-                <section class="sobre3Text">
-                    <h1>Nossos valores</h1>
-                    <p class="sobre3Txt">Foco no cliente e transparência</p>
-                </section>
-            </article>
+            </section>
 
             <section class="productsGeneral2">
                 <a class="productsTitle" href="produtos.html">Produtos</a>

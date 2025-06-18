@@ -2367,3 +2367,26 @@ textarea{
 .tratorCampo{
     width: 100%;
 }
+
+.loginLogoImg{
+    width: 15rem;
+    height: 15rem;
+}
+
+.imgPerfil{
+    width: 25rem;
+    height: 25rem;
+}
+
+.imgPordutoEsp{
+    width: 30rem;
+    height: 30rem;
+}
+
+.imgAvaliacao{
+    width: 17rem;
+}
+
+.imgProcesso{
+    width: 93rem;
+}
