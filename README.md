@@ -1,57 +1,49 @@
 
-# 🌱 I&A AgroTech – Inovação no Campo
+# 🌱 I&A AgroTech – Inovação & Agricultura
 
-![Logo Integrador](Logo-Integrador.png)
+![Logo Integrador](imagens/imgs/Logo-Integrador.png)
 
-Bem-vindo ao projeto **I&A AgroTech**, uma plataforma de comércio eletrônico voltada para o agronegócio, focada na comercialização de produtos tecnológicos como tratores, drones agrícolas e pulverizadores. O objetivo principal é conectar produtores rurais a soluções modernas e eficientes para impulsionar sua produção com inovação.
+Bem-vindo ao marketplace **I&A**, uma plataforma de comércio eletrônico voltada para o agronegócio, focada na comercialização de produtos tecnológicos como tratores, drones agrícolas e pulverizadores. O objetivo principal é conectar produtores rurais a soluções modernas e eficientes para impulsionar sua produção com inovação.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Cadastro e autenticação de usuários e administradores
 - Navegação por categorias de produtos
-- Carrinho de compras interativo
+- Carrinho de compras
 - Gestão de estoque e administradores
 - Histórico de pedidos e área do perfil
-- Página de contato, sobre, favoritos e muito mais
-- Sistema de avaliação de produtos
+- Página de contato, sobre, favoritos
+- Avaliação de produtos
 - Acessibilidade e semântica HTML5 aplicada
 
----
-
-## 📦 Estrutura do Projeto
-
-O projeto é composto por páginas HTML5 responsivas, com foco em estrutura semântica, acessibilidade e design limpo. Utiliza imagens ilustrativas e ícones personalizados:
-
-| Ícone | Descrição |
-|-------|-----------|
-| ![Drone](drone-icon.png) | Drone agrícola inteligente |
-| ![Inovação](agro-tech-icon.png) | Inovação no campo com agricultura de precisão |
+* É importante ressaltar que o projeto tem como foco ser apenas visual, então nenhuma interação além de visualização e navegação é possível
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## Estrutura do Projeto
 
-- HTML5 com semântica acessível
-- CSS3 responsivo
-- Ícones e imagens SVG/PNG otimizados
-- Estrutura modular de páginas
+O projeto é composto por páginas HTML5, construídas juntamente com CSS3 com foco em estrutura semântica, acessibilidade e design limpo.
 
 ---
 
-## 👤 Mascote do Projeto
+## Tecnologias Utilizadas
 
-![Mascote](Mascote.png)
-
-O mascote representa a conexão entre tradição e tecnologia no campo, sendo um símbolo amigável da nossa proposta.
-
----
-
-## 📫 Contato
-
-Caso tenha dúvidas ou sugestões, entre em contato via e-mail: **ia@email.com**
+- HTML5
+- CSS3
 
 ---
 
-© 2025 I&A AgroTech – Todos os direitos reservados.
+## Mascote do Projeto
+
+![Mascote](imagens/imgs/Mascote.png)
+
+Klink é nosso mascote, e ele foi escolhido pois representa a inovação dentro do setor do agronegócio com a implantação de drones e como eles podem transformar o négocio de diversos produtores rurais, assim como nossa loja também pode.
+
+---
+
+## Contato
+
+Caso tenha dúvidas ou sugestões, não exite em entrar em contato!
+
