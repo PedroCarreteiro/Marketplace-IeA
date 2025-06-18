@@ -62,7 +62,7 @@ textarea{
     height: 3.5rem;
     border-radius: 2rem;
     border: none;
-    background-color: var(--contraste_bright);
+    background-color: var(--secundaria);
     padding: auto;
     display: flex;
     flex-direction: row;    
@@ -75,7 +75,7 @@ textarea{
     height: 3.5rem;
     border-radius: 2rem;
     border: none;
-    background-color: var(--contraste_bright);
+    background-color: var(--secundaria);
     padding: auto;
     outline: none;
 }
@@ -1958,19 +1958,52 @@ textarea{
 /*||||||||||| Dashboard ||||||||||||*/
 
 .dashboardGeneral{
+    border: 2px solid var(--destaque);
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 5rem;
+    padding: 2rem;
 }
 
 .dashboardText{
-    width: 55rem;
+    width: 75rem;
     align-items: start;
 }
 
 .dashboardText h1{
     font-size: 2rem;
     font-weight: var(--font-weight-extralight);
+}
+
+.dashboardFiltros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70rem;
+    margin-bottom: 5rem;
+}
+
+.dashboardFiltros h2{
+    font-size: 1.8rem;
+    font-weight: var(--font-weight-extralight);
+}
+
+.labelDashboard{
+    font-size: 1.8rem;
+    font-weight: var(--font-weight-extralight);
+}
+
+.selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.selection .selectionBox{
+    margin-left: 0rem;
 }
 
 /*|||||||||||| CategoriesADM ||||||||||||*/
