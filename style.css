@@ -906,7 +906,7 @@ label{
 }
 
 .btnBuy{
-    margin-top: 1rem;
+    margin-top: 0rem;
     font-weight: var(--font-weight-regular);
     font-size: 1.2rem;
     border-radius: 1rem;
@@ -914,20 +914,32 @@ label{
     height: 2.7rem;
     background-color: var(--destaque);
     color: white;
-    border: none;
+    border: 1px solid var(--destaque);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnBuy:hover{
-    transition: 0.5s;
+    margin-top: 0rem;
     font-weight: var(--font-weight-regular);
     font-size: 1.2rem;
     border-radius: 1rem;
     width: 15rem;
     height: 2.7rem;
-    background-color: var(--primaria);
     color: var(--destaque);
     border: 1px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .heart{
     padding-left:1rem;
@@ -2040,6 +2052,7 @@ label{
     color: var(--contraste_black);
     font-weight: var(--font-weight-regular);
     font-size: 2.5rem;
+    margin-right: 2rem;
 }
 
 .categoriesTitle:hover{
@@ -2050,11 +2063,6 @@ label{
     display: flex;
     align-items: center;
     flex-direction: row;
-}
-
-.btnAdicionarCategoria {
-    margin-left: 2rem;
-    margin-bottom: 0.7rem;
 }
 
 
@@ -2089,30 +2097,6 @@ label{
 .priceProduct{
     font-weight: var(--font-weight-extralight);
     font-size: 1.5rem;
-}
-
-.btnBuy{
-    margin-top: 1rem;
-    font-weight: var(--font-weight-regular);
-    font-size: 1.2rem;
-    border-radius: 1rem;
-    width: 15rem;
-    height: 2.7rem;
-    background-color: var(--destaque);
-    color: white;
-    border: none;
-}
-
-.btnBuy:hover{
-    transition: 0.5s;
-    font-weight: var(--font-weight-regular);
-    font-size: 1.2rem;
-    border-radius: 1rem;
-    width: 15rem;
-    height: 2.7rem;
-    background-color: var(--primaria);
-    color: var(--destaque);
-    border: 1px solid var(--destaque);
 }
 
 .heart{
@@ -2329,26 +2313,38 @@ label{
 .btnAddADM{
     margin-top: 2rem;
     margin-left: 3rem;
-    width: 17rem;
-    height: 3rem;
-    background-color: var(--destaque);
-    border: 1px solid var(--destaque);
-    border-radius: 1rem;
     font-weight: var(--font-weight-regular);
-    color: var(--primaria);
-    font-size: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2.7rem;
+    background-color: var(--destaque);
+    color: white;
+    border: 1px solid var(--destaque);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnAddADM:hover{
-    transition: 0.5s;
-    width: 17rem;
-    height: 3rem;
-    background-color: var(--primaria);
-    border: 1px solid var(--destaque);
-    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
     font-weight: var(--font-weight-regular);
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2.7rem;
     color: var(--destaque);
-    font-size: 1rem;
+    border: 1px solid var(--destaque);
+    background-color: var(--primaria);
+    transition: 0.5s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .cartText .btnAddADM{
