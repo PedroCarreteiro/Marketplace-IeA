@@ -1335,27 +1335,27 @@ label{
     margin-left: 5rem;
     margin-top: 0rem;
     font-weight: var(--font-weight-regular);
-    font-size: x-large;
-    border-radius: 2rem;
-    width: 18rem;
-    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2.7rem;
     background-color: var(--destaque);
     color: white;
-    border: none;
+    border: 1px solid var(--destaque);
     text-decoration: none;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .btnFinalizar:hover{
     margin-left: 5rem;
-    margin-top: 0rem;
     font-weight: var(--font-weight-regular);
-    font-size: x-large;
-    border-radius: 2rem;
-    width: 18rem;
-    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2.7rem;
     color: var(--destaque);
     border: 1px solid var(--destaque);
     background-color: var(--primaria);
@@ -1364,10 +1364,7 @@ label{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.btnFinalizar p{
-    margin-left: 6.3rem;
+    justify-content: center;
 }
 
 /*|||||||||||| Finalização ||||||||||||*/
