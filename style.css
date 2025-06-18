@@ -241,7 +241,7 @@ textarea{
     flex-direction: column;    
 }
 
-.label{
+label{
     font-weight: var(--font-weight-extralight);
     color: var(--contraste_black);
     font-size: large;
@@ -1585,6 +1585,17 @@ textarea{
     font-weight: var(--font-weight-extralight);
     font-size: large;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.formImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.labelImg{
+    margin-bottom: 3rem;
 }
 
 .redzonePerfil{
@@ -1592,6 +1603,7 @@ textarea{
     display: flex;
     align-items: end;
     flex-direction: column;
+    margin-right: 2rem;
 }
 
 .btnRed{
