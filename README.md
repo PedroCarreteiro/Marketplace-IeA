@@ -9,7 +9,7 @@ Bem-vindo ao marketplace I&A. Este projeto tem como foco, a construção de um e
 ## Funcionalidades
 
 - Cadastro e autenticação de usuários e administradores
-- Navegação por categorias de produtos
+- Visualização de categorias de produtos e produtos 
 - Carrinho de compras
 - Gestão de estoque e administradores
 - Histórico de pedidos e área do perfil
