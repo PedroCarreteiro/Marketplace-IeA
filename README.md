@@ -17,7 +17,7 @@ Bem-vindo ao marketplace I&A. Este projeto tem como foco, a construção de um e
 - Avaliação de produtos
 - Dashboards
 
-É importante ressaltar que o projeto tem como foco ser apenas visual, então nenhuma interação além de visualização e navegação é possível
+É importante ressaltar que o projeto tem como foco ser apenas visual, então nenhuma interação além de visualização e navegação é possível.
 
 ---
 
