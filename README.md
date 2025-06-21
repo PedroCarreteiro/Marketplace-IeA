@@ -1,5 +1,5 @@
 
-# 🌱 I&A AgroTech – Inovação & Agricultura
+# 🌱 I&A – Inovação & Agricultura
 
 ![Logo Integrador](imagens/imgs/Logo-Integrador.png)
 
