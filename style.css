@@ -934,12 +934,12 @@ label{
 .btnBuy:hover{
     margin-top: 0rem;
     font-weight: var(--font-weight-regular);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border-radius: 1rem;
     width: 15rem;
     height: 2.7rem;
     color: var(--destaque);
-    border: 1px solid var(--destaque);
+    border: 4px solid var(--destaque);
     background-color: var(--primaria);
     transition: 0.5s;
     text-decoration: none;
