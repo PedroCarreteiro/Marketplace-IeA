@@ -939,7 +939,7 @@ label{
     width: 15rem;
     height: 2.7rem;
     color: var(--destaque);
-    border: 2px solid var(--destaque);
+    border: 1px solid var(--destaque);
     background-color: var(--primaria);
     transition: 0.5s;
     text-decoration: none;
@@ -1065,7 +1065,7 @@ label{
     border-radius: 1rem;
     font-weight: var(--font-weight-regular);
     color: var(--destaque);
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .btnRemove:hover{
