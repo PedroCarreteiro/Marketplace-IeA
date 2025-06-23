@@ -42,7 +42,7 @@ Klink é nosso mascote, e ele foi escolhido pois representa a inovação dentro 
 
 ---
 
-##Link para protótipo
+## Link para protótipo
 
 https://www.figma.com/design/koetAUREMpgE5JVstyI0mx/Integrador?node-id=1-2&t=9b7L9gMX3EIiwzhm-1
 
