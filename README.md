@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="imagens/imgs/Logo-Integrador.png" width="300" height="200" alt="Logo Integrador">
+  <img src="imagens/imgs/Logo-Integrador.png" width="300" height="300" alt="Logo Integrador">
 
 </div>
 
@@ -42,7 +42,7 @@ O projeto é composto por páginas HTML5, construídas juntamente com CSS3 com f
 
 <div align="center">
 
-  <img src="imagens/imgs/Mascote.png" width="300" height="200" alt="Mascote">
+  <img src="imagens/imgs/Mascote.png" width="300" height="300" alt="Mascote">
 
 </div>
 
