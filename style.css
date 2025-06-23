@@ -1334,7 +1334,7 @@ label{
     margin-left: 5rem;
     margin-top: 0rem;
     font-weight: var(--font-weight-regular);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-radius: 1rem;
     width: 15rem;
     height: 2.7rem;
@@ -1351,7 +1351,7 @@ label{
 .btnFinalizar:hover{
     margin-left: 5rem;
     font-weight: var(--font-weight-regular);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-radius: 1rem;
     width: 15rem;
     height: 2.7rem;
