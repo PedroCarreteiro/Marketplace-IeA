@@ -3,7 +3,6 @@
 :root{
     --font-weight-regular: 400;
     --font-weight-extralight: 200;
-    --font-weight-thin: 100;
     --primaria: #ffffff;
     --destaque: #128A00;
     --secundaria: #EBEBEB;
@@ -132,7 +131,7 @@ textarea{
     list-style: none;
     font-size: 5rem;
     color: var(--primaria);
-    font-weight: var(--font-weight-thin);
+    font-weight: var(--font-weight-extralight);
     margin-top: 2rem;
 }
 
@@ -140,7 +139,7 @@ textarea{
     list-style: none;
     font-size: xx-large;
     color: var(--primaria);
-    font-weight: var(--font-weight-thin);
+    font-weight: var(--font-weight-extralight);
     margin-left: 1rem;
 }
 
@@ -149,14 +148,14 @@ textarea{
     margin-top: -2rem;
     font-size: x-large;
     color: var(--primaria);
-    font-weight: var(--font-weight-thin);
+    font-weight: var(--font-weight-extralight);
 }
 
 .footerYearLeft{
     list-style: none;
     font-size: x-large;
     color: var(--primaria);
-    font-weight: var(--font-weight-thin);
+    font-weight: var(--font-weight-extralight);
 }
 
 .footerRight{
@@ -168,14 +167,14 @@ textarea{
 .footerEmail{
     font-size: x-large;
     color: var(--primaria);
-    font-weight: var(--font-weight-thin);
+    font-weight: var(--font-weight-extralight);
 }
 
 .footerPhone{
     margin-top: 1rem;
     font-size: x-large;
     color: var(--primaria);
-    font-weight: var(--font-weight-thin);
+    font-weight: var(--font-weight-extralight);
 }
 
 /*|||||||||||| Login ||||||||||||*/
