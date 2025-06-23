@@ -1,7 +1,11 @@
 
 # 🌱 I&A – Inovação & Agricultura
 
-![Logo Integrador](imagens/imgs/Logo-Integrador.png)
+<div align="center">
+
+  <img src="imagens/imgs/Logo-Integrador.png" width="300" height="200" alt="Logo Integrador">
+
+</div>
 
 Bem-vindo ao marketplace I&A. Este projeto tem como foco, a construção de um e-commerce que realize a venda de tratores, drones agrícolas e pulverizadoes que sejam de marcas de confiança e do mais alto nível tecnológico do mercado de maquinário agrícola.
 ---
@@ -36,7 +40,11 @@ O projeto é composto por páginas HTML5, construídas juntamente com CSS3 com f
 
 ## Mascote do Projeto
 
-![Mascote](imagens/imgs/Mascote.png)
+<div align="center">
+
+  <img src="imagens/imgs/Mascote.png" width="300" height="200" alt="Mascote">
+
+</div>
 
 Klink é nosso mascote, e ele foi escolhido pois representa a inovação dentro do setor do agronegócio com a implantação de drones e como eles podem transformar o négocio de diversos produtores rurais, assim como nossa loja também pode.
 
