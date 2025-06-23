@@ -56,6 +56,16 @@ https://www.figma.com/design/koetAUREMpgE5JVstyI0mx/Integrador?node-id=1-2&t=9b7
 
 ---
 
+## Link para o projeto
+
+# Fluxo de cliente
+https://pedrocarreteiro.github.io/Marketplace-IeA/index.html
+
+# Fluxo de administrador
+https://pedrocarreteiro.github.io/Marketplace-IeA/loginAdm.html
+
+---
+
 ## Contato
 
 Caso tenha dúvidas ou sugestões, não exite em entrar em contato!
